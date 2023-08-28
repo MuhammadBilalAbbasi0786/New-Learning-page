@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    margin: 70px 0px;
+}
+nav.navbar.navbar-expand-md.bg-body-tertiary {
+    background-color: rgb(0, 0, 0) !important;
+    padding: 0px;
+    color: white !important;
+}
+a.nav-link {
+    color: white !important;
+    font-size: 16px;
+}
+a.nav-link.active {
+    color: red !important;
+}
+button.btn.btn-outline-success {
+    background-color: red !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+button[type=submit]:hover{
+    background-color: blue !important;
+}
+.new{
+    padding: 10px 50px !important;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h1{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.hover ul li a:hover{
+    color: rgb(219, 30, 30) !important;
+}
+/* img.card-img-top {
+    height: 200px;
+} */
